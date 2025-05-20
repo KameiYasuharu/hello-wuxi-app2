@@ -13,7 +13,7 @@ phases:
       - cp lib/servlet-api.jar webapps/WEB-INF/lib/
   post_build:
     commands:
-      - aws s3 sync webapps s3://map-ken-kamei-s3-test/HelloWuxi/ --debug
+      - aws s3 sync webapps s3://map-ken-wuxi-s3-test/HelloWuxi/ --debug
 
 artifacts:
   files:
